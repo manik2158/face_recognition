@@ -49,7 +49,7 @@ class smallmodel:
 
 
 
-        model.compile(loss='binary_crossentropy',
+        model.compile(loss='categorical_crossentropy',
                     optimizer='rmsprop',
                     metrics=['accuracy'])
 
