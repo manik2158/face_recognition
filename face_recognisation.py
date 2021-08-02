@@ -46,7 +46,7 @@ class smallmodel:
         model.add(Dropout(0.5))
 
         model.add(Dense(4))
-        model.add(Activation('sigmoid'))
+        model.add(Activation('softmax'))
 
 
 
